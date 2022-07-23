@@ -1,0 +1,118 @@
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+.title
+{
+  color: yellow;
+  /*background: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);*/
+  /*-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
+  margin-top:-60px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /*font-family: 'Roboto Slab', serif;*/
+}
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 1000px;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.coin h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.tags{
+  font-weight: bolder;
+  font-size: 19px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.cryptoname{
+  position: absolute;
+  right: 1120px;
+  color: inherit;
+}
+.cryptosymbol{
+  position: relative;
+  left: -40px;
+  color: inherit;
+}
+.currentprice{
+  position: relative;
+  left: 20px;
+  color: inherit;
+}
+.marketcap{
+  position: relative;
+  left: 90px;
+  color: inherit;
+}
+.pricechaange{
+  position: relative;
+  left: 140px;
+  color: inherit;
+}
+.totalvolume{
+  position: relative;
+  left: 210px;
+  color: inherit;
+}
+.coin-symbol {
+  text-transform: uppercase;
+}
+
+.coin-data {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coin-price {
+  width: 110px;
+  margin-right: 10px;
+}
+
+.coin-volume {
+  margin-left: 10px;
+  width: 175px;
+}
+
+.coin-marketcap {
+  margin-left: 10px;
+  width: 250px;
+}
+
+.coin-percent {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #11d811;
+}
